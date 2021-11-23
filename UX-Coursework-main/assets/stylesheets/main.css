@@ -603,3 +603,8 @@ table h4 {
   background: #dd4b39;
   color: white;
 }
+
+#map{
+  height: 400px;
+  width: 100%;
+}
