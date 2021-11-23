@@ -134,8 +134,8 @@ table {
    =============
 */
 body {
-  background: #293f50;
-  color: #888;
+  background: #f4b41a;
+  color: #143d59;
   font: 300 16px/22px "Lata", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
@@ -213,10 +213,10 @@ body {
   padding: 66px 0 44px 0;
 }
 .row-alt {
-  background: #cbe2c1;
-  background: -webkit-linear-gradient(to right, #abaca9, #f6f1d3);
-  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: #f4b41a;
+  background: -webkit-linear-gradient(top, #f4b41a, #f6f1d3);
+  background: -moz-linear-gradient(top , #f4b41a, #f6f1d3);
+  background: linear-gradient(top, #f4b41a, #f6f1d3);
   padding: 44px 0 22px 0;
 }
 /*
@@ -235,10 +235,10 @@ h1,
 h2,
 h3,
 h4 {
-  color: #648880;
+  color: #143d59;
 }
 h1 {
-  font-size: 36px;
+  font-size: 40px;
   line-height: 44px;
 }
 h2 {
@@ -284,7 +284,7 @@ em {
 */
 .primary-header a,
 .primary-footer a {
-  color: #fff;
+  color: #143d59;
 }
 .primary-header a:hover,
 .primary-footer a:hover {
@@ -340,12 +340,13 @@ p a {
 */
 
 .logo {
+  margin:auto 50px;
   border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
   line-height: 44px;
-  padding: 40px 0 22px 0;
-  font-weight: 100;
+  padding: 40px 0 40px 0;
+  font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
@@ -547,7 +548,7 @@ tbody td {
  border-top: 1px solid #dfe2e5;
  padding-top: 21px;
 }
-}
+
 tbody td:first-of-type {
  padding-right: 15px;
 }
@@ -567,3 +568,42 @@ table h4 {
 .schedule-offset {
  color: #a9b2b9;
 }
+
+.img-logo{
+  width: 450px;
+  margin: auto 220px;
+  float: none;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+
+
