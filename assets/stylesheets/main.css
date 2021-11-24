@@ -215,7 +215,7 @@ body {
 .row-alt {
   background: #f4b41a;
   background: -webkit-linear-gradient(top, #f4b41a, #f6f1d3);
-  background: -moz-linear-gradient(top , #f4b41a, #f6f1d3);
+  background: -moz-linear-gradient(top, #f4b41a, #f6f1d3);
   background: linear-gradient(top, #f4b41a, #f6f1d3);
   padding: 44px 0 22px 0;
 }
@@ -340,7 +340,7 @@ p a {
 */
 
 .logo {
-  margin:auto 50px;
+  margin: auto 50px;
   border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
@@ -545,31 +545,31 @@ thead th {
   font-size: 24px;
 }
 tbody td {
- border-top: 1px solid #dfe2e5;
- padding-top: 21px;
+  border-top: 1px solid #dfe2e5;
+  padding-top: 21px;
 }
 
 tbody td:first-of-type {
- padding-right: 15px;
+  padding-right: 15px;
 }
 tbody td:last-of-type {
- padding-left: 15px;
+  padding-left: 15px;
 }
 tbody td:only-of-type {
- padding-left: 0;
- padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 table a {
- color: #888;
+  color: #888;
 }
 table h4 {
- margin-bottom: 0;
+  margin-bottom: 0;
 }
 .schedule-offset {
- color: #a9b2b9;
+  color: #a9b2b9;
 }
 
-.img-logo{
+.img-logo {
   width: 450px;
   margin: auto 220px;
   float: none;
@@ -580,7 +580,6 @@ table h4 {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  
 }
 
 .fa:hover {
@@ -588,11 +587,11 @@ table h4 {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 .fa-instagram {
@@ -604,8 +603,7 @@ table h4 {
   color: white;
 }
 
-#map{
+#map {
   height: 400px;
   width: 100%;
 }
-
