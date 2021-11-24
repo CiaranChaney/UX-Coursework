@@ -14,18 +14,16 @@ function initMap() {
         center: derry,
     });
 
-   
-
-    const zone1 = new google.maps.Circle({
+    const zone3 = new google.maps.Circle({
 
         center: new google.maps.LatLng(54.9966, -7.3086),
         map: map,
         strokeColor: "000000",
         strokeOpacity: 0.2,
         strokeWeight: 2,
-        fillColor: "#00DCFF",
+        fillColor: "#f6ff00",
         fillOpacity: 0.2,
-        radius: 3000// in meters
+        radius: 10000// in meters
 
     });
 
@@ -36,24 +34,27 @@ function initMap() {
         strokeColor: "000000",
         strokeOpacity: 0.2,
         strokeWeight: 2,
-        fillColor: "#0491FF",
+        fillColor: "#2bff00",
         fillOpacity: 0.2,
         radius: 7000// in meters
 
     });
 
-    const zone3 = new google.maps.Circle({
+    const zone1 = new google.maps.Circle({
 
         center: new google.maps.LatLng(54.9966, -7.3086),
         map: map,
         strokeColor: "000000",
         strokeOpacity: 0.2,
         strokeWeight: 2,
-        fillColor: "#042EFF",
+        fillColor: "#00c3ff",
         fillOpacity: 0.2,
-        radius: 10000// in meters
+        radius: 3000// in meters
 
     });
+
+    
+    
 
 
     infoWindow = new google.maps.InfoWindow();
