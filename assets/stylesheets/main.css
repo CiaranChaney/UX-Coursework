@@ -330,7 +330,8 @@ p a {
   font-size: 14px;
 }
 .btn-default:hover {
-  background: #77a198;
+  background: #fff;
+  color: #648880;
 }
 
 /*
