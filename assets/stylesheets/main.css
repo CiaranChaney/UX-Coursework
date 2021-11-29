@@ -329,12 +329,11 @@ p a {
   padding: 11px 30px;
   font-size: 14px;
 }
-.btn-default:hover {
-  background: #ffffff;
-  color: #648880;
-  border-radius: 5px;
-  color: #000000 ;
-}
+	.btn-default:hover {
+		background: #898b8c;
+		color: #ffffff
+		
+	}
 
 /*
   ========================================
