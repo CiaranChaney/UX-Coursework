@@ -307,7 +307,7 @@ p a {
 */
 .btn {
   border-radius: 5px;
-  color: #fff;
+  color: #f4b41a;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -325,7 +325,7 @@ p a {
 }
 .btn-default {
   border: 0;
-  background: #648880;
+  background: #f4b41a;
   padding: 11px 30px;
   font-size: 14px;
 }
