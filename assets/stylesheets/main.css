@@ -307,7 +307,7 @@ p a {
 */
 .btn {
   border-radius: 5px;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -316,11 +316,11 @@ p a {
   text-transform: uppercase;
 }
 .btn-alt {
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   padding: 10px 30px;
 }
 .btn-alt:hover {
-  background: #fff;
+  background: #ffffff;
   color: #648880;
 }
 .btn-default {
@@ -330,8 +330,10 @@ p a {
   font-size: 14px;
 }
 .btn-default:hover {
-  background: #fff;
+  background: #ffffff;
   color: #648880;
+  border-radius: 5px;
+  color: #000000 ;
 }
 
 /*
